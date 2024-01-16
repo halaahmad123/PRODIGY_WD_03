@@ -1,0 +1,109 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #8b5afe;
+    font-size: 10px;
+    color: antiquewhite;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.container{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.tit{
+    font-size: 10px;
+    width: 100px;
+    height: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 10px;
+    background: linear-gradient(#ba1cf9,#5d1df2);
+}
+#restart{
+    margin-top: 5px;
+    height: 12px;
+    width: 75px;
+    font-size: 10px;
+    color: antiquewhite;
+    border-radius: 10px;
+    border: 0;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background: linear-gradient(#ba1cf9,#5d1df2);
+}
+#restart:hover{
+    border: 0.5px solid #b99bff;
+}
+
+.cells{
+    display: flex;
+    align-items:center ;
+    justify-content: center;
+}
+.cel{
+    width: 20px;
+    height: 20px;
+    background-color:#fff;
+    border: none;
+    border-radius: 5px;
+    margin: 2px;
+    box-shadow: 0 1px 0 rgb(67, 70, 80);
+    cursor: pointer;
+    color: rgb(154, 12, 230);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+/* ........ */
+.wind{
+    background:linear-gradient(135deg,#4c00ff,#b300fa);
+    position: absolute;
+    z-index: 2;
+    flex-direction: column;
+    font-size: 10px;
+    padding: 10px;
+    width: 110px;
+    height: 110px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    text-align: center;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+#new{
+    padding: 10px;
+    background-color: #2f01b7;
+    color: antiquewhite;
+    border-radius: 10px;
+    border: 1px solid;
+    font-size: 5px;
+    text-align: center;
+    margin-top: 5px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#new:hover{
+    border: 1px solid #b99bff;
+    background-color: #1b0353;
+}
+#ms{
+    margin: 1px;
+}
+.hide{
+    display: none;
+}
